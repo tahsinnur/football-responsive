@@ -1,0 +1,180 @@
+/* -----------
+   google font
+   ----------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ------------
+   common style
+   ------------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/* ------
+   header
+   ------ */
+header{
+    width: 1440px;
+    height: 677px;
+    margin: 0 auto;
+    background-color: #2D25A0;
+}
+/* --------
+   nav-menu
+   -------- */
+nav{
+    display: flex;
+    width: 1160px;
+    height: 44px;
+    margin: 0 auto;
+    padding: 40px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-button{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.nav-button i{
+    margin-right: 5px;
+}
+/* ------
+   banner
+   ------ */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.link-button i{
+    margin-left: 10px;
+}
+.banner-right{
+    text-align: right;
+}
+.banner-right img{
+    width: 80%;
+}
+/* -------
+    Main 
+   -------*/
+main{
+    width: 1440px;
+    margin: 70px auto;
+}
+/* ------
+   Players
+   ------ */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    box-shadow: 0px 0px 5px gainsboro;
+    transition: transform 0.5s ease-in-out;
+}
+.player:hover{
+    transform: scale(1.02);
+    box-shadow: 2px 2px 10px gainsboro;
+}
+.player img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.player h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.player p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+/* ----------
+   Highlights
+   ---------- */
+.highlights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 165px;
+}
+.highlight-left h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.highlight-left p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 20px 0;
+}
+.highlight-right img{
+    width: 100%;
+}
+
+/* ------
+   footer
+   ------ */
+   footer{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 40px 0;
+   }
+   .footer-section{
+       text-align: center;
+   }
+   .footer-img img{
+       width: 40%;
+       text-align: center;
+   }
+   .social-icons ul li{
+       list-style: none;
+       display: inline;
+       margin-left: 5px;
+       background-color: #c9cace;
+       padding: 6px 10px;
+       border-radius: 50%;
+   }
+   .social-icons ul li a{
+       text-decoration: none;
+       color:gray;
+       font-size: 16px;
+   }
+   .footer-section p{
+       margin-top: 20px;
+   }
