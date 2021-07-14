@@ -47,6 +47,10 @@ nav{
 .nav-left ul li a{
     text-decoration: none;
     color: white;
+    font-size: 16px;
+}
+.nav-left ul li a:hover{
+    color: #E02C6D;
 }
 .nav-button{
     text-decoration: none;
@@ -266,7 +270,7 @@ footer{
 }
 .fab:hover{
     transform: scale(1.2);
-    color: black;
+    color:#E02C6D;
     transition: transform .5s ease-in-out;
 }
 .footer-section p{
