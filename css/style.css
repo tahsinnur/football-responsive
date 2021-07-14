@@ -57,6 +57,9 @@ nav{
 .nav-button i{
     margin-right: 5px;
 }
+.nav-button:hover{
+    box-shadow: 1px 1px 15px gray;
+}
 /* ------
    banner
    ------ */
@@ -78,14 +81,21 @@ nav{
     background-color: #E02C6D;
     padding: 10px 24px;
 }
+.link-button:hover{
+    box-shadow: 1px 1px 15px gray;
+}
 .link-button i{
     margin-left: 10px;
 }
 .banner-right{
     text-align: right;
 }
-.banner-right img{
+.banner-img img{
     width: 80%;
+}
+.banner-right:hover .banner-img{
+    transform: rotate3d(0, 1, 0, 360deg);
+    transition: transform 2s ease-in-out;
 }
 /* -------
     Main 
@@ -105,13 +115,13 @@ main{
 .player{
     display: flex;
     flex-direction: column;
-    padding: 25px;
-    box-shadow: 0px 0px 5px gainsboro;
+    padding: 15px;
+    box-shadow: 1px 1px 15px gainsboro;
     transition: transform 0.5s ease-in-out;
 }
 .player:hover{
     transform: scale(1.02);
-    box-shadow: 2px 2px 10px gainsboro;
+    box-shadow: 2px 2px 15px gainsboro;
 }
 .player img{
     width: 100%;
@@ -250,6 +260,14 @@ footer{
     text-decoration: none;
     color:gray;
     font-size: 16px;
+}
+.fab{
+    transition: .5s ease-in-out;
+}
+.fab:hover{
+    transform: scale(1.2);
+    color: black;
+    transition: transform .5s ease-in-out;
 }
 .footer-section p{
     margin-top: 20px;
