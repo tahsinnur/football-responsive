@@ -249,7 +249,7 @@ footer{
     text-align: center;
 }
 .footer-img img{
-    width: 40%;
+    width: 50%;
     text-align: center;
 }
 .social-icons ul li{
@@ -341,7 +341,6 @@ footer{
         margin-bottom: 50px;
     }
     .footer-img img{
-        width: 70%;
         margin-bottom: 30px;
     }
 /* Tablet devices */
@@ -389,7 +388,6 @@ footer{
         margin-bottom: 50px;
     }
     .footer-img img{
-        width: 70%;
         margin-bottom: 30px;
     }
 }
